@@ -33,7 +33,7 @@ const mount = (el, { onNavigate, defaultHistory, initialPath }) => {
 }
 
 if (process.env.NODE_ENV === 'development') {
-	const devRootEl = document.querySelector('#_marketing-dev-root')
+	const devRootEl = document.querySelector('#_auth-dev-root')
 
 	if (devRootEl) {
 		mount(devRootEl, {
